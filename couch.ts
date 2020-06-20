@@ -119,7 +119,7 @@ function makeFetch(
   };
 }
 
-class CouchDatabase<T> {
+export class CouchDatabase<T> {
   constructor(
     readonly endpoint: string,
     readonly db: string,
